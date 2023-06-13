@@ -18,7 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
   List<dynamic> _filteredItems = [];
 
   Future<void> getData() async {
-    var url = Uri.parse('https://api.hakanev.keenetic.link/db.php');
+    var url = Uri.parse('https://api./db.php');
     var response = await http.get(url);
 
     setState(() {
